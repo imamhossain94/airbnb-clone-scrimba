@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import CardImage from "../src/images/card-image.png"
 import './App.css';
 import Navbar from '../src/components/Navbar.js';
 import Hero from '../src/components/Hero.js';
@@ -9,7 +9,22 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      <Card />
+      <Card 
+          img={CardImage}
+          rating="5.0"
+          reviewCount={6}
+          country="USA"
+          title="Life Lessons with Katie Zaferes"
+          price={136}
+      />
+      <Card 
+          img={CardImage}
+          rating="5.0"
+          reviewCount={6}
+          country="USA"
+          title="Life Lessons with Katie Zaferes"
+          price={136}
+      />
     </div>
   );
 }
