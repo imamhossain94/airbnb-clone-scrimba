@@ -1,0 +1,26 @@
+section {
+    padding: 20px;
+}
+
+.Hero {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Hero--image {
+    max-width: 400px;
+    align-self: center;
+}
+
+.Hero--h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.Hero--p {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
